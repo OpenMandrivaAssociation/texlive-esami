@@ -1,12 +1,12 @@
-# revision 30109
+# revision 32608
 # category Package
 # catalog-ctan /macros/latex/contrib/esami
-# catalog-date 2013-04-25 12:55:47 +0200
+# catalog-date 2014-01-07 23:48:24 +0100
 # catalog-license lppl
-# catalog-version 1.0
+# catalog-version 1.1
 Name:		texlive-esami
-Version:	1.0
-Release:	5
+Version:	1.1
+Release:	1
 Summary:	Typeset exams with scrambled questions and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esami
@@ -38,13 +38,22 @@ Spanish.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/esami/es-UKenglish.lng
+%{_texmfdistdir}/tex/latex/esami/es-USenglish.lng
+%{_texmfdistdir}/tex/latex/esami/es-french.lng
+%{_texmfdistdir}/tex/latex/esami/es-german.lng
+%{_texmfdistdir}/tex/latex/esami/es-greek.lng
+%{_texmfdistdir}/tex/latex/esami/es-italian.lng
+%{_texmfdistdir}/tex/latex/esami/es-spanish.lng
 %{_texmfdistdir}/tex/latex/esami/esami.sty
 %doc %{_texmfdistdir}/doc/latex/esami/README
 %doc %{_texmfdistdir}/doc/latex/esami/doc/esami-doc-en.pdf
 %doc %{_texmfdistdir}/doc/latex/esami/doc/esami-doc-en.tex
+%doc %{_texmfdistdir}/doc/latex/esami/doc/esami-doc-it.dtx
 %doc %{_texmfdistdir}/doc/latex/esami/doc/esami-doc-it.pdf
 %doc %{_texmfdistdir}/doc/latex/esami/doc/esami-doc-it.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/esami.bib
+%doc %{_texmfdistdir}/doc/latex/esami/doc/examples/esami-xyz.cfg
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/master-sol.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/master.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/problem1.tex
@@ -60,16 +69,10 @@ Spanish.
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/test3.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/test4.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/test5-fillin.tex
+%doc %{_texmfdistdir}/doc/latex/esami/doc/examples/testA-sol.pdf
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/testA.pdf
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/testA.tex
 %doc %{_texmfdistdir}/doc/latex/esami/doc/examples/totale-versioni.tex
-%doc %{_texmfdistdir}/doc/latex/esami/es-UKenglish.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-USenglish.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-french.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-german.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-greek.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-italian.lng
-%doc %{_texmfdistdir}/doc/latex/esami/es-spanish.lng
 %doc %{_texmfdistdir}/doc/latex/esami/esami-xyz.cfg
 
 #-----------------------------------------------------------------------
