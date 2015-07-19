@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-esami
 Version:	1.1
-Release:	4
+Release:	5
 Summary:	Typeset exams with scrambled questions and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esami
