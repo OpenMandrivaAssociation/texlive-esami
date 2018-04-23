@@ -1,5 +1,5 @@
 Name:		texlive-esami
-Version:	2.3
+Version:	2.4
 Release:	1
 Summary:	Typeset exams with scrambled questions and answers
 Group:		Publishing
