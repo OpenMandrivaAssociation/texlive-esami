@@ -1,6 +1,6 @@
 Name:		texlive-esami
 Version:	61596
-Release:	1
+Release:	2
 Summary:	Typeset exams with scrambled questions and answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esami
