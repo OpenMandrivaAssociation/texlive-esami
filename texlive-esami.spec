@@ -1,5 +1,5 @@
 Name:		texlive-esami
-Version:	67707
+Version:	71732
 Release:	1
 Summary:	Typeset exams with scrambled questions and answers
 Group:		Publishing
